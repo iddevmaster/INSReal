@@ -1,5 +1,10 @@
 # INSReal Web Information
 
+Env :
+- PHP v8.x
+- Laravel v10.x
+- Node v18.x
+
 install project as :
 - `composer install`
 - `npm i`

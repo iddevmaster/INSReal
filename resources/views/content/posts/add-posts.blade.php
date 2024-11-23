@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="mb-5">
-                    <label for="mediaFileUpload" class="form-label fs-6">ไฟล์ภาพ</label>
+                    <label for="mediaFileUpload" class="form-label fs-6">ไฟล์ภาพ (ไม่เกิน 5MB)</label>
                     <input class="form-control filepond" type="file" id="mediaFileUpload" multiple
                         ata-max-file-size="5MB">
                 </div>

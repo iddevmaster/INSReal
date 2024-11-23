@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "url": "/admin/main",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+        "menuHeader": "Web Information"
+    },
+    {
+        "name": "Posts",
+        "icon": "menu-icon tf-icons bx bx-collection",
+        "slug": "admin-posts",
+        "url": "/admin/posts"
+    },
+    {
+        "name": "Logout",
+        "icon": "menu-icon tf-icons bx bx-log-out",
+        "slug": "admin-logout",
+        "url": "/admin/logout"
+    }
+
+  ]
+}

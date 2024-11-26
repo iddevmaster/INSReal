@@ -20,7 +20,7 @@
             <form action="{{ route('posts.store') }}" method="post" enctype="multipart/form-data">
                 @csrf
 
-                <div class="d-flex gap-4">
+                <div class="d-flex flex-wrap flex-md-nowrap gap-4">
                     <div class="mb-3">
                         <label for="asset_type" class="form-label fs-6">ประเภท<span class="text-danger">*</span></label>
                         <select class="form-select" required name="asset_type" id="asset_type"
@@ -39,7 +39,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="area_size" class="form-label fs-6">ขนาด<span class="text-danger">*</span> (ไร่ / งาน / ตารางวา)</label>
-                        <div class="d-flex">
+                        <div class="d-flex flex-wrap flex-md-nowrap">
                             <input type="number" class="form-control" required min="0" name="area_size_rai" id="area_size1"
                                 placeholder="ไร่"  />
                             <input type="number" class="form-control" min="0" max="4" required name="area_size_ngan" id="area_size2"
@@ -52,7 +52,7 @@
 
                 <div class="mb-3">
                     <label class="form-label fs-6">ที่อยู่<span class="text-danger">*</span></label>
-                    <div class="d-flex gap-2 mb-2">
+                    <div class="d-flex flex-wrap flex-md-nowrap gap-2 mb-2">
                         <select class="form-select" required name="address_province" id="address-province">
                             <option disabled selected>เลือกจังหวัด</option>
                             @foreach ($provinces as $province)

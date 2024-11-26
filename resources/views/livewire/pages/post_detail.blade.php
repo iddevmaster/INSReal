@@ -20,7 +20,7 @@ new class extends Component {
     }
 }; ?>
 <section class="bg-gray">
-    <div class="container mx-auto px-4" id="gallery-container">
+    <div class="container mx-auto md:px-4" id="gallery-container">
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>
